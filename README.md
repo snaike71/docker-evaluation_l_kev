@@ -6,8 +6,8 @@
 
 ## Exercice 1
 
-Veuillez trouver les réponses aux questions dans le fichier `exercice-1/README.md`.
+les réponses aux questions sont dans le fichier `exercice-1/README.md`.
 
 ## Exercice 2
 
-Les instructions pour lancer le projet sont dans le fichier `exercice-2/README.md`.
+Les instructions pour lancer le projet et les réponses aux questions sont dans le fichier `exercice-2/README.md`.
