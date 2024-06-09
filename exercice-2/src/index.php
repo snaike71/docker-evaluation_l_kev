@@ -25,11 +25,9 @@ if ($result->num_rows > 0) {
 }
 $conn->close();
 ?>
+
 <?php
-if (get
-php
-Copier le code
-env('ENVIRONMENT') === 'dev') {
+if (getenv('ENVIRONMENT') === 'dev') {
     echo "<p>Environnement de développement</p>";
 }
 ?>

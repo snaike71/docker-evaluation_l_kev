@@ -8,6 +8,7 @@ CREATE TABLE article (
     body TEXT
 );
 
+GRANT ALL PRIVILEGES ON docker_doc.* TO 'db_client'@'%';
 USE docker_doc_dev;
 CREATE TABLE article (
     id BIGINT AUTO_INCREMENT PRIMARY KEY,
@@ -18,3 +19,7 @@ CREATE TABLE article (
 INSERT INTO docker_doc_dev.article (title, body) VALUES
 ('Docker overview', 'Docker is an open platform for developing, shipping, and running applications. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly.'),
 ('What is a container?', 'Imagine you’re developing a killer web app that has three main components - a React frontend, a Python API, and a PostgreSQL database. If you wanted to work on this project, you’d have to install Node, Python, and PostgreSQL.');
+
+GRANT ALL PRIVILEGES ON docker_doc_dev.* TO 'db_client'@'%';
+
+FLUSH PRIVILEGES;
