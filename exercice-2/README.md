@@ -5,8 +5,8 @@
 ### 1. Clonez le dépôt
 
     ```
-    git clone https://github.com/username/docker-evaluation_x_abc.git
-    cd docker-evaluation_x_abc/exercice-2
+    git clone https://github.com/snaike71/docker-evaluation_l_kevin.git
+    cd docker-evaluation_l_kevin/exercice-2
     ```
 ### 2. Construisez et démarrez les conteneurs
 
